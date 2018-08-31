@@ -26,7 +26,7 @@ require('client.inc.php');
 if (($logo = $ost->getConfig()->getClientLogo())) {
     $logo->display();
 } else {
-    header('Location: '.ASSETS_PATH.'images/logo.png');
+    header('Location: '.ASSETS_PATH.'images/azure-logo.png');
 }
 
 ?>
